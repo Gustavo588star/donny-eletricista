@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="google-site-verification" content="XXXXXX" />
+
+<title>Donny Eletricista - Pinhalzinho SP</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0d0d0d;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url('https://images.unsplash.com/photo-1581092919535-7146ff1a590d');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.btn {
+  background: #25D366;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WhatsApp flutuante */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>Donny Eletricista</h2>
+</header>
+
+<section class="hero">
+  <h1>Eletricista em Pinhalzinho - SP</h1>
+  <p>Rapidez, qualidade e mais de 30 anos de experiência</p>
+  <br>
+  <a class="btn" href="https://wa.me/5511971734860">Solicitar Orçamento</a>
+</section>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Serviços</h2>
+    <p>✔ Instalações elétricas</p>
+    <p>✔ Manutenção</p>
+    <p>✔ Troca de disjuntores</p>
+    <p>✔ Reparos em geral</p>
+  </div>
+
+  <div class="card">
+    <h2>Sobre</h2>
+    <p>
+      Profissional com mais de 30 anos de experiência,
+      oferecendo serviços com rapidez, qualidade e confiança.
+      Orçamento totalmente grátis.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Contato</h2>
+    <p><strong>WhatsApp:</strong> (11) 97173-4860</p>
+    <p><strong>Endereço:</strong> Av. da Saudade, 391 - Pinhalzinho/SP</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Donny Eletricista</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5511971734860">💬</a>
+
+</body>
+</html>
